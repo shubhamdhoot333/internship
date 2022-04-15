@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>Register page | signUp </title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+<style>
+body{
+background:antiqueWhite;
+}
+.div1
+{
+margin-top:3%;
+background:darkSalmon;
+margin-left:28%;
+margin-right:28%;
+text-align:justify;
+height:95%;
+
+}
+.h1{
+font-family: "segoe script";
+text-align:center;
+color:blue;
+}
+.img1
+{
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+.img2{
+border-radius:30%;
+}
+.fix{
+ float:left;
+  width:40%;
+  text-align:center;
+ 
+}
+.fix1{
+ float:right;
+  width:40%;
+	text-align:center;
+}
+.label1{
+font-family: cursive;
+font-size:18px;
+}
+.txt
+{
+padding:8px;
+width: 90%;
+margin-bottom:5%;
+border-radius: 5px;
+font-family: monospace;
+}
+.button1{
+margin-top:10px;
+margin-left:25%;
+height:40px;
+width:50%;
+font-size:18px;
+    color: white;
+    background: green;
+}
+
+</style>
+<script>
+function sag(){
+var name = document.getElementById("username").value;
+var Email = document.getElementById("email").value;
+var gen = document.getElementById("gender").value;
+var ag = document.getElementById("age").value;
+alert("welcome " + name + " your email " + Email + " gender " + gen + " Age " + ag );
+}
+</script>
+
+</head>
+<body>
+<div class="div1">
+	<h1 class="h1">Registration page</h1>
+	
+	<div class="img1">
+		<img src="logo.png"  class="img2" height="20%" width="20%">
+	</div>
+	<br>
+	<div>
+		<div class="fix">
+			
+				<label class="label1">Username:</label><br>
+				
+				<input type="text" class="txt" name="username" id="username" placeholder="Enter your name ">
+			
+		</div>
+		<div class="fix1">
+				<label class="label1">Email:</label><br>
+				<input type="text" class="txt" id="email" placeholder="Enter your Email ">
+		</div>
+	</div>
+	
+	<div>	
+		<div class="fix">
+			
+				<label class="label1">Password:</label><br>
+				<input type="password" class="txt" id="password" placeholder="Enter your password ">
+		
+		</div>
+		<div class="fix1">
+		
+				<label class="label1">Confirm password:</label><br>
+				<input type="password" class="txt" id="cpassword" placeholder="Enter your confirm password ">
+		</div>
+	</div>
+	<div>	
+		<div class="fix">
+
+				<label class="label1">Gender:</label><br>
+				<select class="txt" id="gender" >
+					<option value="None">None</option>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+				</select>
+
+		</div>
+		<div class="fix1">
+
+				<label class="label1">Age:</label><br>
+				<input type="tel" class="txt" id="age" placeholder="Enter your Age "  maxlength="2">
+
+		</div>
+	</div>
+	
+	<div>
+	<input type="button" value="Register Here " class="button1" name="Submit" onclick="sag()">
+	<br>
+	<center><p><h4>Click here to go <a href="javascript:alert('welcome to webpage');" target="blank">phone number</a><h4></p>  </center>
+	</div>
+	<div>
+	
+	</div>
+</div>
+
+
+
+
+</body>
+</html>

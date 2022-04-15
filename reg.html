@@ -1,0 +1,99 @@
+<html>
+<head>
+	<title>Page</title>
+	<style>
+	body
+	{
+		background:rgb(64, 223, 239);
+	}
+	.div1
+	{
+		background:rgb(221, 221, 221);
+		margin-top:2%;
+		margin-left:30%;
+		margin-right:30%;
+		height:90%;
+		text-align:center;
+	}
+	.heading
+	{
+		padding:5px;
+		color:white;
+	}
+	.img2
+	{
+		border: 1px solid #ffffff;
+		border-radius: 10%;
+		padding: 5px;
+		margin-bottom:10px;
+	}
+	.in1
+	{
+		font-family: cursive;
+		font-size: 15px;
+		width: 45%;
+		border: 2px solid  rgb(221, 221, 221);
+		margin-bottom:10px;
+		padding-left:10px;
+	}
+	i{
+		color:white;
+		margin-right:10px;
+	}
+	.button1
+	{	
+		padding: 6px;
+		border-radius:30px;
+		font-family: cursive;
+		margin-left:auto;
+		margin-right:auto;
+		
+		height:30px;
+		width:100px;
+		font-size:18px;
+		color: white;
+		background: green;
+	}
+	
+	</style>
+	<script>
+	function fun(){
+		var name = document.getElementById("name").value;
+		var Email = document.getElementById("email").value;
+		var num = document.getElementById("number").value;
+		
+			alert("welcome " + name + " your email " + Email +  " number " + num );
+				 }
+	</script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<body>	
+		<div class="div1">
+			<h1 class="heading">REGISTRATION FORM </h1>
+			
+			<img src="logo.png"  class="img2" height="18%" width="18%">
+			<br>
+			<i class='fa fa-user fa-lg '></i>
+			
+			<input type="text" class="in1" id="name" placeholder="Username">
+			<br>
+			<i class="fa fa-envelope fa-lg fa-fw"></i>
+			<input type="email" class="in1" id="email" placeholder="Email ">
+			<br>
+			<i class="fa fa-phone fa-lg fa-fw"></i>
+			<input type="tel" class="in1" id="number" placeholder="Number "  maxlength="10">			
+			<br>
+			<i class="fa fa-key fa-lg fa-fw"></i>
+			<input type="password" class="in1" id="password" placeholder="Password ">
+			<br>
+			<i class="fa fa-key fa-lg fa-fw"></i>
+			<input type="password" class="in1" id="cpassword" placeholder="confirm Password ">
+			<br>
+			
+			<input type="button" value="Register "  id="button1" class="button1" name="Submit" onclick="fun()">
+			
+			
+		</div>
+</body>
+</html>
