@@ -1,0 +1,167 @@
+/* navbar css */
+
+.nav-item{
+	font-size:18px;
+	font-family:FontAwesome;
+	}
+	
+/* heading css */	
+.services
+		{
+		
+		padding-top:35px;
+		padding-bottom:20px;
+		font-family: cursive;
+		text-decoration:underline;
+		}	
+/* icon css of index page */
+
+#icon_style{
+	font-size:80px;
+	padding:10px;
+	color:#ffc02a;
+	}	
+			
+/* service_card in index page */		
+#service_card{
+		background: #efefef;
+		margin-bottom:20px;
+		
+		
+		
+	}
+	
+/* section in index*/
+	.c_code{
+	color:#000000;
+	text-align: justify;
+	font-size:16px;
+	 font-weight: bold; 
+	
+	
+	}
+	
+/* button text*/	
+#btn
+	{
+	color:white;
+	background: #055999
+	}
+#colored_row{
+	    background: #055999;
+		color:white;
+	}
+	
+	
+/* about us page css*/
+	
+			#text-section1{
+			background:#efefef;
+			padding-top:20px;
+			
+			text-align:justify;
+			padding-left:30px;
+			}
+			#text3{
+			padding-top:40px;
+			background:#007cba;
+			color:white;
+			text-align:justify;
+			padding-right:30px;
+			}
+			.common{
+				
+				margin:10px;
+				padding:15px;
+				text-align:justify;
+				box-shadow:1px 1px 2px 2px  #888888;
+					
+			}
+			.icon{
+			text-align:center;
+			}
+			.heading{
+			font-family:  cursive;
+			font-size:20px;
+			text-decoration:underline;
+			text-align:center;
+			}
+			
+	/* services page css*/	
+#inner-headline{
+	padding:20px;
+			background: #efefef;
+		color:blue;
+		text-align:center;
+		font-size:32px;
+	}
+	.text-style-1{
+				font-weight:bold;
+				font-family:  cursive;
+				text-align:justify;
+			}
+			.text-style-2{
+				font-weight:bold;
+						
+			}
+			.text-style-3 {
+				text-align:justify;
+				font-size:20px;
+				color: #000000;
+			}
+			.text-style-4 {
+				font-size:16px;
+				font-weight:bold;
+			}
+			#image_p1{
+			text-align:center;
+			}
+		
+			#card_title{
+			    font-family: cursive;
+				text-decoration: underline;
+				text-align: center;
+				color: black;
+				font-size:20px;
+			}
+		/* pricing page css*/
+.form-border{
+	box-shadow:1px 1px 2px 2px  #888888;
+}
+		
+.common-footer{
+	text-decoration:none;
+	color:white;
+	padding-left:5px;
+}				
+
+.carousel .carousel-item {
+  height: 450px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 450px;
+}
+#nav-button{
+	margin-left:100px;
+}	
+.common-space{
+	margin-top:80px;
+}
+.footer-padding-div{
+	padding-left:30%;
+	
+}
+.plumber_text_heading
+{
+	font-size:28px;
+	font-weight:bold;	
+}
+.common-small-text{
+	font-weight:bold;
+	font-size:18px;
+	color:#8e8d8d;;
+}
